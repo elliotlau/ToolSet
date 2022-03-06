@@ -2,18 +2,15 @@ package indi.elliot.toolset.utils;
 
 import org.apache.commons.compress.utils.FileNameUtils;
 import org.apache.pdfbox.pdmodel.PDDocument;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.springframework.lang.NonNull;
 
 import java.io.File;
 import java.io.IOException;
 import java.nio.file.Paths;
 
-import static indi.elliot.toolset.constants.ToolSetConstant.LOGGER_NAME;
+import static indi.elliot.toolset.constants.ToolSetConstant.log;
 
 public class PDFUtil {
-    Logger log = LoggerFactory.getLogger(LOGGER_NAME);
     final String TAG_DECRYPT = ".decrypt.";
 
     public boolean decrypt(@NonNull String filePath, @NonNull String password){

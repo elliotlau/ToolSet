@@ -1,6 +1,5 @@
+package indi.elliot.toolset;
 import indi.elliot.toolset.utils.PDFUtil;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import java.lang.reflect.InvocationTargetException;
@@ -16,7 +15,6 @@ public class ToolSet {
     PDFUtil pdfUtil;
 
     public static void main(String[] args) {
-        Logger log = LoggerFactory.getLogger(LOGGER_NAME);
         log.info("ToolSet : Start");
         String sClass = System.getProperty(_CLASS);
         String sMethod = System.getProperty(_METHOD);

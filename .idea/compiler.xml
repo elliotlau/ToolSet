@@ -6,11 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="JavaUtils" />
+        <module name="ToolSet" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="JavaUtils" target="8" />
+      <module name="ToolSet" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>
