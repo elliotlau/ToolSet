@@ -10,8 +10,6 @@ public class ToolSetConstant {
     public final static String _METHOD = "method";
     public final static String _PARAMS = "params";
     public final static String STRING_SPLIT = ",";
-    public final static String [] LIST_CLASS_NAME = {
-            "indi.elliot.toolset.utils.PDFUtil"
-    };
+    public final static String PDFUtil_CLASS = "PDFUtil";
 
 }
